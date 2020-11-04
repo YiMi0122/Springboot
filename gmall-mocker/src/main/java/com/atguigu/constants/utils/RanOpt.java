@@ -1,4 +1,4 @@
-package com.atguigu.utils;
+package com.atguigu.constants.utils;
 
 /**
  * @author zljz

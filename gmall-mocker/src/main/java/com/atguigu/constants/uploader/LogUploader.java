@@ -1,4 +1,4 @@
-package com.atguigu.uploader;
+package com.atguigu.constants.uploader;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
@@ -12,7 +12,7 @@ public class LogUploader {
     public static void sendLogStream(String log){
         try{
             //不同的日志类型对应不同的URL
-            URL url  =new URL("http://localhost:8080/log");
+            URL url  =new URL("http://hadoop102:81/log");
 
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 

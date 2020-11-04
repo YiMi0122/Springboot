@@ -1,12 +1,12 @@
-package com.atguigu.app;
+package com.atguigu.constants.app;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.uploader.LogUploader;
-import com.atguigu.utils.RanOpt;
-import com.atguigu.utils.RandomDate;
-import com.atguigu.utils.RandomNum;
-import com.atguigu.utils.RandomOptionGroup;
+import com.atguigu.constants.utils.RanOpt;
+import com.atguigu.constants.utils.RandomDate;
+import com.atguigu.constants.utils.RandomNum;
+import com.atguigu.constants.utils.RandomOptionGroup;
+import com.atguigu.constants.uploader.LogUploader;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
